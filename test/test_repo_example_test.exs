@@ -1,6 +1,5 @@
 defmodule TestRepoExampleTest do
   use ExUnit.Case
-  doctest TestRepoExample
 
   test "sort 3 elem list" do
     assert CodeRepoExample.sort([2, 2, 1]) == [1, 2, 2]
